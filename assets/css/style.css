@@ -27,7 +27,6 @@ hr {
 }
 
 .c-main {
-  width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,10 +38,19 @@ hr {
 
 }
 
+.c-first {
+  display: flex;
+  margin: 50px auto;
+}
+
 
 .cella {
   width: 100%;
   padding: 8px;
+}
+
+.cella-no-p {
+  width: 100%;
 }
 
 .a-left {
@@ -60,14 +68,25 @@ hr {
 
 /* WIDTHS */
 
-.width-75 {
+.width-64 {
+  width: 64%;
+}
+
+.width-18 {
+  width: 18%;
+}
+
+.width-1k {
+  width: 1000px;
+}
+
+.width-60 {
   width: 60%;
 }
 
-.width-15 {
-  width: 20%;
+.width-40 {
+  width: 40%;
 }
-
 
 
 
@@ -97,10 +116,18 @@ hr {
   background-color: #e2c239;
 }
 
-.bc-pink {
+.bg-pink {
   background-color: pink;
 }
 
-.bc-plum {
+.bg-plum {
   background-color: plum;
+}
+
+.bg-cyan {
+  background-color: cyan;
+}
+
+.bg-gray {
+  background-color: gray;
 }
