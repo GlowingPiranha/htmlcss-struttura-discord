@@ -5,6 +5,11 @@
 }
 
 body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.bs-dash {
   border-style: dashed;
 }
 
@@ -13,13 +18,51 @@ body {
 
 
 
-
-
-
-
 .container {
   display: flex;
+  justify-content: center;
 }
+
+.c-main {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cella {
+  padding: 8px;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.width-15 {
+  width: 15%;
+}
+
+.a-left {
+  text-align: left;
+}
+
+.a-center {
+  text-align: center;
+}
+
+.a-right {
+  text-align: right;
+}
+
+
+.height-75 {
+  height: 75px;
+}
+
+.height-400 {
+  height: 400px;
+}
+
 
 .bg-lightblue {
   background-color: lightblue;
