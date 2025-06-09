@@ -26,7 +26,7 @@ hr {
   justify-content: center;
 }
 
-.c-main {
+.c-head {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@ hr {
 
 }
 
-.c-first {
+.c-main {
   display: flex;
   margin: 50px auto;
 }
@@ -99,6 +99,10 @@ hr {
   height: 500px;
 }
 
+.height-800 {
+  height: 800px;
+}
+
 
 
 
@@ -125,9 +129,29 @@ hr {
 }
 
 .bg-cyan {
-  background-color: cyan;
+  background-color: rgb(22, 107, 235);
 }
 
 .bg-gray {
-  background-color: gray;
+  background-color: lightgray;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-ash {
+  background-color: #222831;
+}
+
+.bg-pink-b {
+  background-color: #f76b8a;
+}
+
+.bg-aqua {
+  background-color: #53a8b6;
+}
+
+.bg-aquamarine {
+  background-color: aquamarine;
 }
