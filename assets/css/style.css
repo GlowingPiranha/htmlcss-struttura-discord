@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  border-style: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-ocra {
+  background-color: #e2c239;
+}
