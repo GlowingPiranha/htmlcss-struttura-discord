@@ -13,7 +13,10 @@ body {
   border: 2px dashed;
 }
 
-
+hr {
+  background-color: lightblue;
+  padding: 1px;
+}
 
 
 
@@ -35,6 +38,7 @@ body {
   width: 800px;
 
 }
+
 
 .cella {
   width: 100%;
