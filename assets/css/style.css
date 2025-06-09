@@ -10,7 +10,7 @@ body {
 
 
 .bs-dash {
-  border-style: dashed;
+  border: 2px dashed;
 }
 
 
@@ -24,22 +24,21 @@ body {
 }
 
 .c-main {
-  width: 900px;
+  width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.lone {
+  margin: 50px auto;
+  width: 800px;
+
+}
+
 .cella {
+  width: 100%;
   padding: 8px;
-}
-
-.width-75 {
-  width: 75%;
-}
-
-.width-15 {
-  width: 15%;
 }
 
 .a-left {
@@ -55,23 +54,49 @@ body {
 }
 
 
+/* WIDTHS */
+
+.width-75 {
+  width: 60%;
+}
+
+.width-15 {
+  width: 20%;
+}
+
+
+
+
+/* HEIGTHS */
 .height-75 {
   height: 75px;
 }
 
 .height-400 {
-  height: 400px;
+  height: 500px;
 }
 
 
+
+
+
+/* COLORS */
 .bg-lightblue {
   background-color: lightblue;
 }
 
-.bg-blue {
-  background-color: blue;
+.bg-navy {
+  background-color: navy;
 }
 
 .bg-ocra {
   background-color: #e2c239;
+}
+
+.bc-pink {
+  background-color: pink;
+}
+
+.bc-plum {
+  background-color: plum;
 }
