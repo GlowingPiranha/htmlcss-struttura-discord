@@ -8,14 +8,13 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-.bs-dash {
-  border: 2px dashed;
-}
-
 hr {
   background-color: lightblue;
   padding: 1px;
+}
+
+.bs-dash {
+  border: 2px dashed;
 }
 
 
@@ -43,6 +42,10 @@ hr {
   margin: 50px auto;
 }
 
+.c-sub {
+  display: flex;
+  margin: 8px auto 20px;
+}
 
 .cella {
   width: 100%;
@@ -63,6 +66,12 @@ hr {
 
 .a-right {
   text-align: right;
+}
+
+/* SPECIFIED */
+.cella-no-p.bg-aqua.width-70 {
+  display: flex;
+
 }
 
 
@@ -86,6 +95,14 @@ hr {
 
 .width-40 {
   width: 40%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-70 {
+  width: 70%;
 }
 
 
@@ -149,7 +166,7 @@ hr {
 }
 
 .bg-aqua {
-  background-color: #53a8b6;
+  background-color: #00aaa0;
 }
 
 .bg-aquamarine {
